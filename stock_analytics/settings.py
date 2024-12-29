@@ -88,7 +88,7 @@ DATABASES = {
     }
 }
 
-DATABASE_ROUTERS = ['stock_analytics.router.LegacyDBRouter']
+DATABASE_ROUTERS = ['stock_analytics.routers.LegacyDBRouter']
 
 
 # Password validation
